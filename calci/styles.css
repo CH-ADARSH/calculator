@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#190303,rgb(16, 2, 2));
+}
+.center{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-variant: small-caps;
+    text-shadow: -2px 4px rgba(113,115,119,0.8);
+}
+.container{
+    border: 1px solid rgb(148, 120, 120);
+    padding: 20px;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.8);
+}
+input{
+    font-size: larger;
+    width: 80%;
+    text-align: right;
+    /* padding-top: 10px ; */
+    border: none;
+    padding: 24px; 
+    margin: 30px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(113,115,119,0.1);
+    /* color: white; */
+    color: white;
+    font-size: 20px;
+    cursor: pointer; 
+
+}
+input::placeholder{
+    color: #fff;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color:white;
+    font-size: medium;
+    box-shadow: -8px -8px 8px rgba(4, 165, 103, 0.148);
+}
+.Equalbtn{
+    background-color: orange;
+    box-shadow: -8px -8px 8px rgba(rgba(128, 248, 95, 0.231));
+}
+.operators{
+    font-size: 22px;
+    color: #efd829; 
+}
+.button{
+    font-size: 22px;
+}
